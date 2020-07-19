@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+
+    background: linear-gradient(to right, #f7797d, #FBD786, #C6FFDD);
+
+}
+
+header h1 {
+	color: black;
+	font-size: 48px;
+	font-weight: 500;
+    text-align: center;
+    margin-top: 10px;
+    
+}
+
+.inputBox{
+    width: 500px;
+    margin: 30px auto;
+    display: flex;
+    justify-content: center;
+    
+}
+.inputBox input{
+    width: 300px;
+    height: 30px;
+    margin: 0 10px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    padding: 4px;
+}
+.inputBox button{
+    width: 100px;
+    height: 40px;
+    background: rgb(65, 144, 255);
+    color: white;
+    border: none;
+    font-size: 1.2rem;
+    border-radius: 5px;;
+}
+
+.data{
+    width: 800px;
+    margin: 0 auto;
+}
+.box .head {
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 10px 20px;
+    text-align: center;
+}
+.box .head span{
+    font-size: 2rem;
+}
+.total{
+    display: flex;
+    width: 800px;
+    height: 200px;
+    justify-content: space-between;
+}
+
+
+
+.total div{
+    margin-top: 20px;
+    width: 30%;
+    height: 200px;
+    font-size: 2rem;
+    text-align: center;
+    background-color: rgb(137, 137, 137);
+    color: white;
+}
+.total div p{
+    margin: 50px 0 10px 0;
+}
+.total div:nth-child(1){
+    background: linear-gradient(to right, #b92b27,#1565C0);
+}
+.total div:nth-child(2){
+    background: linear-gradient(to right, #ED213A,#93291E);
+}
+.total div:nth-child(3){
+    background: linear-gradient(to right, #11998e,#38ef7d);
+}
+
+
+.new{
+    margin-top: 60px;
+    display: flex;
+    width: 800px;
+    height: 200px;
+    justify-content: space-between;
+}
+
+
+
+.new div{
+    width: 30%;
+    height: 200px;
+    background-color: rgb(65, 144, 255);
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+} 
+.new div p{
+    margin: 50px 0 10px 0;
+}
+.new div:nth-child(1){
+    background: linear-gradient(to right, #f12711,#f5af19);
+}
+.new div:nth-child(2){
+    background: linear-gradient(to right, #bc4e9c,#f80759);
+}
+.new div:nth-child(3){
+    background: linear-gradient(to right, #c31432,#240b36);
+}
